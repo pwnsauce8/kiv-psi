@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "psi-1", "psi-1\psi-1.csproj", "{A0C9551D-9EB3-4384-9FF8-F412287A5392}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "psi-1-server", "psi-1-server\psi-1-server.csproj", "{B812F807-2586-43A0-A9FC-544C4E91F066}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A0C9551D-9EB3-4384-9FF8-F412287A5392}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0C9551D-9EB3-4384-9FF8-F412287A5392}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0C9551D-9EB3-4384-9FF8-F412287A5392}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0C9551D-9EB3-4384-9FF8-F412287A5392}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B812F807-2586-43A0-A9FC-544C4E91F066}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B812F807-2586-43A0-A9FC-544C4E91F066}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B812F807-2586-43A0-A9FC-544C4E91F066}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B812F807-2586-43A0-A9FC-544C4E91F066}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DA8B20B9-7A08-49C5-B628-750A96B8B64F}
+	EndGlobalSection
+EndGlobal
