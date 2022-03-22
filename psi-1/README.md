@@ -1,6 +1,3 @@
-*Multicast IP:* 230.0.0.0
-*Multicast port:* 5000
-
 ## Assignment #1
 
 Implement an IPv4 UDP multicast client (and server) in any programming language (C# in my project). 
