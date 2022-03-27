@@ -4,8 +4,8 @@ Implement a multithreaded TCP server, which can generate simple callbacks for HT
 
 ## General info
 
-* *Multicast IP:* 127.0.0.1
-* *Multicast port:* 5000
+* *Default IP:* 127.0.0.1
+* *Default port:* 5000
 
 This C# solution contains one project:
 
