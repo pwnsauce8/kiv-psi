@@ -13,7 +13,7 @@ This C# solution contains one project:
 
 ## Setup
 
-To run Server and client:
+To run Server:
 1. Unzip `run.zip`
 2. Open `run` folder
 3. Run `psi-2.exe`
