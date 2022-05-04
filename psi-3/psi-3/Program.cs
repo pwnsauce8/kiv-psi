@@ -57,7 +57,7 @@ namespace psi_3
 
             // Calculate light or dart part of the Earth
             string dayornight = DayOrNight(sunset, sunrise, actual) ? "light" : "dark";
-            Console.Write($"ISS is now on {dayornight} part og the Earth");
+            Console.Write($"ISS is now on the {dayornight} part og the Earth");
 
             Console.ReadLine();
         }
