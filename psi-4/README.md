@@ -1,4 +1,6 @@
-# NAT network configure
+# Assignment #3 
+
+NAT network configure
 
 * *Subnet A* (20 hosts)
 * *Subnet B* (2 hosts)
@@ -7,7 +9,8 @@
 
 ## R1 configuration
 
-LAN settings
+### LAN settings
+
 ```bash
 configure terminal
 interface gigabitEthernet 0/0
@@ -16,7 +19,8 @@ no shutdown
 exit	
 ```
 
-WAN settings. Mask allows to use 30 subnet hosts.
+### WAN settings. Mask allows to use 30 subnet hosts.
+
 ```bash
 interface gigabitEthernet 1/0
 ip address 192.168.123.254 255.255.255.224
@@ -24,12 +28,14 @@ no shutdown
 exit
 ```
 
-Routing table setup
+### Routing table setup
+
 ```bash
 ip route 0.0.0.0 0.0.0.0 192.168.123.253
 ```
 
-DHCP pool
+### DHCP pool
+
 ```bash
 ip dhcp excluded-address 192.168.123.1 192.168.123.10
 ip dhcp pool r1_home
@@ -41,7 +47,8 @@ exit
 
 ## R2 configuration
 
-WAN settings
+### WAN settings
+
 ```bash
 configure terminal
 interface gigabitEthernet 0/0
@@ -50,7 +57,8 @@ no shutdown
 exit
 ```
 
-LAN settings
+### LAN settings
+
 ```bash
 interface gigabitEthernet 1/0
 ip address 192.168.123.253 255.255.255.252
@@ -58,12 +66,14 @@ no shutdown
 exit
 ```
 
-Routing table setup
+### Routing table setup
+
 ```bash
 ip route 192.168.123.0 255.255.255.0 gigabitEthernet 1/0
 ```
 
-NAT settings
+### NAT settings
+
 ```bash
 access-list 1 permit 192.168.123.0 0.0.0.255
 interface gigabitEthernet 1/0
